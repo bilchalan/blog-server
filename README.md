@@ -1,4 +1,4 @@
-# Blog blog api(Nestjs) 
+# Blog server api(Nestjs) 
 
 # Install Dependencies
 **Blog/Server** - `npm i`
