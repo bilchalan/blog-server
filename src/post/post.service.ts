@@ -55,7 +55,6 @@ export class PostService {
       .filter();
     const filteredPostCount1 = await filteredPost.query;
     const filteredPostCount = filteredPostCount1.length;
-
     const apiFeatures = new ApiFeatures(this.postModel.find(), query)
       .search()
       .approved(true)
