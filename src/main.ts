@@ -8,7 +8,7 @@ import { ValidationPipe } from '@nestjs/common';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
-    origin: ['https://bil-blog.onrender.com'],
+    origin: ['http://localhost:3000', '*'],
     methods: ['GET', 'PUT', 'POST', 'DELETE', 'PATCH'],
     credentials: true,
   });
